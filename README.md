@@ -2,6 +2,10 @@
 
 A modern React + TypeScript application for managing warehouse quality control (QC) processes.
 
+## Live Demo
+
+[Warehouse QC Management System (Hosted)](https://spiffy-salmiakki-580950.netlify.app/)
+
 ## Features
 
 - Dashboard with shipment statistics and data table
