@@ -6,7 +6,6 @@ import React, {
   type ReactNode,
 } from "react";
 import type { Shipment } from "../types/qc";
-import { QCStatus } from "../types/qc";
 import { getShipments, saveShipment } from "../utils/api";
 import { backupStorage, restoreStorage } from "../utils/storage";
 import { DUMMY_SHIPMENTS } from "../types/dummyShipments";

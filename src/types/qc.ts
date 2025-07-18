@@ -1,9 +1,11 @@
-export enum QCStatus {
-  Pending = "pending",
-  Level1Complete = "level1_complete",
-  Level2Complete = "level2_complete",
-  Completed = "completed",
-}
+export const QCStatus = {
+  Pending: "pending",
+  Level1Complete: "level1_complete",
+  Level2Complete: "level2_complete",
+  Completed: "completed",
+} as const;
+
+export type QCStatus = (typeof QCStatus)[keyof typeof QCStatus];
 
 export interface Level1QC {
   receivedDate: string; // ISO date string
